@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&family=Roboto:wght@700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="preload" href="images/project1.webp" as="image" />
+    <link rel="preload" href="images/project2.webp" as="image" />
+    <link rel="preload" href="images/project3.webp" as="image" />
+    <link rel="preload" href="images/bg_1.webp" as="image" />
+    <link rel="preload" href="images/about_me.webp" as="image" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="main_menu">
+          <h1 class="logo">
+            <img class="logo_svg" src="images/logo.svg" alt="The logo image" />
+          </h1>
+          <nav>
+            <button id="mobile_nav" aria-label="navigation menu">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li>
+                <a href="https://en.bc.fi/" target="_blank">More about BCH</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="section">
+          <div class="hero">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <h2 class="welcome_message center__content">
+              Full Stack Web Developer
+            </h2>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="block">
+        <div class="container">
+          <h2 class="block__heading">Projects</h2>
+          <div class="media">
+            <div class="project_card">
+              <img src="images/project1.webp" alt="Project image 1" />
+              <h3 class="project_header">Lorem ipsum dolor sit.</h3>
+              <p class="project_paragraph">Lorem, ipsum dolor.</p>
+              <a href="#">Read more</a>
+            </div>
+            <div class="project_card">
+              <img src="images/project2.webp" alt="Project image 2" />
+              <h3 class="project_header">Lorem ipsum dolor sit.</h3>
+              <p class="project_paragraph">Lorem, ipsum dolor.</p>
+              <a href="#">Read more</a>
+            </div>
+            <div class="project_card">
+              <img src="images/project3.webp" alt="Project image 3" />
+              <h3 class="project_header">Lorem ipsum dolor sit.</h3>
+              <p class="project_paragraph">Lorem, ipsum dolor.</p>
+              <a href="#">Read more </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="block_about">
+        <div class="container">
+          <h2 class="block__heading__light">About me</h2>
+          <div class="about__media">
+            <div class="media__image">
+              <img
+                class="about__image"
+                src="images/about_me.webp"
+                alt="Picture in the mountains"
+              />
+            </div>
+            <div class="media__text">
+              <p class="media__paragraph">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni,
+                officia quos. Voluptates excepturi animi odit et cupiditate
+                accusamus nemo sint voluptas. Quo ut, eaque et veritatis
+                consequuntur nihil quas dicta perferendis animi culpa a
+                doloremque delectus exercitationem nesciunt sunt aspernatur
+                facilis labore maiores. Adipisci voluptas, animi nobis
+                consequuntur reprehenderit tempore nesciunt distinctio aut
+                fugit, at possimus reiciendis a! Consequuntur quis obcaecati sit
+                nam laborum earum aperiam. Cupiditate voluptatibus quaerat qui!
+                Eum ipsa laboriosam iure nostrum? Laborum cumque beatae commodi
+                eaque hic veritatis itaque assumenda quod officia molestias
+                praesentium, explicabo, impedit delectus cupiditate? Facilis
+                doloribus sequi provident maiores? Fugit, quos voluptas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="container">
+          <h2 class="block__heading">Skills</h2>
+          <div class="skill_cards">
+            <div class="skill_box">
+              <div class="skill_box_icon">
+                <i class="js-color fab fa-js"></i>
+              </div>
+              <div class="skill_box_title">
+                <h3 class="skill_name">JavaScript</h3>
+              </div>
+              <div class="skill_box_progress">
+                <progress class="progress_html" value="70" max="100">
+                  70%
+                </progress>
+              </div>
+            </div>
+            <div class="skill_box">
+              <div class="skill_box_icon">
+                <i class="react-color fab fa-react"></i>
+              </div>
+              <div class="skill_box_title">
+                <h3 class="skill_name">REACT</h3>
+              </div>
+              <div class="skill_box_progress">
+                <progress class="progress_html" value="40" max="100">
+                  40%
+                </progress>
+              </div>
+            </div>
+            <div class="skill_box">
+              <div class="skill_box_icon">
+                <i class="html-color fab fa-html5"></i>
+              </div>
+              <div class="skill_box_title">
+                <h3 class="skill_name">HTML5</h3>
+              </div>
+              <div class="skill_box_progress">
+                <progress class="progress_html" value="90" max="100">
+                  90%
+                </progress>
+              </div>
+            </div>
+            <div class="skill_box">
+              <div class="skill_box_icon">
+                <i class="css-color fab fa-css3-alt"></i>
+              </div>
+              <div class="skill_box_title">
+                <h3 class="skill_name">CSS3</h3>
+              </div>
+              <div class="skill_box_progress">
+                <progress class="progress_html" value="20" max="100">
+                  20%
+                </progress>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="card">
+          <h2 class="contact_heading">Contact me</h2>
+          <form>
+            <div class="form-group">
+              <label for="fname">Your name</label>
+              <input id="fname" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="email">Your email</label>
+              <input id="email" type="text" />
+            </div>
+            <div class="form-group-text">
+              <label for="message">Message to me</label>
+              <input id="message" type="text" />
+            </div>
+          </form>
+          <button class="btn">SEND MESSAGE</button>
+        </div>
+        <small>Copyright 2023 Mariia Sizova</small>
+      </div>
+      <button id="backToTop" class="btn primary">Back to top</button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
